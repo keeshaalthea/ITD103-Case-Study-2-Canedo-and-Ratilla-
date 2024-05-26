@@ -1,0 +1,451 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Add your custom CSS styles here */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5; /* Adjust background color as needed */
+}
+
+.login-box {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  padding: 40px;
+  width: 400px;
+}
+
+.login-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #7AC4E7; /* Adjust text color as needed */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-right: 15px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 16px;
+  color: #555; /* Adjust label color as needed */
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc; /* Adjust border color as needed */
+  border-radius: 4px;
+}
+
+.signup-link {
+  font-size: 14px;
+  text-align: center;
+}
+
+.signup {
+  color: #007bff; /* Adjust link color as needed */
+}
+
+.login-btn {
+  background-color: #007bff; /* Adjust button background color as needed */
+  color: #fff; /* Adjust button text color as needed */
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #0056b3; /* Adjust hover background color as needed */
+}
+
+.error {
+  color: #dc3545; /* Adjust error text color as needed */
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/*logo*/
+.logo-container {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.logo {
+  width: 250px; /* Adjust logo width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 25px;
+}
+
+/*dashboard*/
+/* Dashboard container */
+.dashboard-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 0px;
+  
+}
+
+/* Main content */
+.main-content {
+  background-color: #001E2B;
+    min-height: 300vh; /* Ensure the background color covers the full viewport height */
+    min-width: 1900px;
+    margin-left: 0px;
+  /*
+  padding-left: 20px;
+  padding-right: 20px;*/
+}
+
+/* Side navigation */
+.side-nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 280px; /* Adjust the width as needed */
+  background-color: 	#74B72E; /* Same color as before */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+.side-nav1 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 280px; /* Adjust the width as needed */
+  background-color: #DBEAFF; /* Same color as before */
+  overflow-y: auto; /* Enable vertical scrolling */
+  border-right: 1px solid #ddd; /* Same border as before */
+}
+
+/* Side navigation links */
+.side-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 15px;
+}
+
+.side-nav ul li {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: navy;
+}
+
+.side-nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 128, 28);
+}
+
+.side-nav ul li a:hover {
+  color: #46f8a5; /* Change color on hover */
+}
+
+/* Side navigation1 links */
+.side-nav1 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 15px;
+}
+
+.side-nav1 ul li {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: rgb(0, 128, 28);
+}
+
+.side-nav1 ul li a {
+  text-decoration: none;
+  color: rgb(0, 128, 28);
+}
+
+.side-nav1 ul li a:hover {
+  color: #00ffc8; /* Change color on hover */
+}
+
+
+
+/* card */
+/* Add this CSS to your stylesheet */
+.appointment-widget {
+  margin-top: 3px;
+  margin-bottom: 1px;
+}
+
+.card {
+  background-color: #223B6E; /* Blue background color */
+  color: #fff; /* White text color */
+  border-radius: 5px;
+  padding: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 10px;
+  margin-bottom: -5px;
+  display: inline-block; /* Set display to inline-block */
+  width: 250px;
+}
+
+.card-content {
+  text-align: center; /* Center align content */
+}
+
+.card-title {
+  font-size: 1rem;
+  margin-bottom: 6px; /* Adjust margin */
+  margin-top: 5px;
+}
+
+.card-text {
+  font-size: 3rem;
+  margin-top: 6px; /* Adjust margin */
+  margin-bottom: 3px;
+}
+.widgets-container {
+  display: flex;
+  justify-content: space-between; /* Evenly space widgets */
+  margin-top: 20px; /* Adjust as needed */
+}
+
+/*table*/
+.table {
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+
+.add-btn {
+  padding: 5px 10px; /* Adjust padding as needed */
+  text-align: center;
+  background-color: #0056B3;
+}
+
+.centered-box {
+  height: 100vh;
+  background-color: primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text{
+  color: #223B6E;
+}
+
+
+.modify-btn{
+  padding: 5px 5px; /* Adjust padding as needed */
+  text-align: center;
+  background-color: #223B6E;
+  border-radius: 3px;
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: #f2f2f2;
+  margin-right: 13px;
+  margin-left: 15px;
+}
+.modify-btn:hover {
+  background-color: #0056B3; /* Adjust hover background color as needed */
+}
+
+.del-btn{
+  padding: 6.2px 6px; /* Adjust padding as needed */
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 7px;
+  background-color: #c91628;
+  border-radius: 3px;
+  font-size: 0.95rem;
+  border: none;
+  color: #f2f2f2;
+}
+.del-btn:hover {
+  background-color: rgb(255, 14, 14); /* Adjust hover background color as needed */
+}
+
+
+/*typewriter effect*/
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+.typingeffect h1 {
+  display: inline-block;
+  color: #37eb5e; /* Default color */
+  overflow: hidden;
+  white-space: nowrap; /* Keep text in one line */
+  margin-left: 50px; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+      width: 0;
+  }
+  to {
+      width: 100%;
+  }
+}
+
+.typingeffect .blinking-cursor {
+  animation: blink 0.8s infinite;
+}
+@keyframes blink {
+  50% {
+      opacity: 0;
+  }
+}
+
+/* CSS for customizing the appearance of the calendar */
+.custom-day {
+  color: black; /* Set the font color of the days in the calendar to black */
+}
+.custom-calendar .react-calendar__month-view__weekdays__weekday abbr {
+  color: black; /* Set the font color of the weekday labels to black */
+}
+
+.appointment-dot {
+  background-color: red;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.charts-calendar-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.calendar-container {
+  padding: 10px;
+  margin-top: 20px;
+  width: 10%;
+  max-width: 100px;
+  height: fit-content;
+  background-color: #274179;
+  color: #f2f2f2;
+  padding-bottom: 10px;
+}
+
+.typingeffect h1{
+  font-size: 2.4rem;
+}
+
+/* card */
+/* Add this CSS to your stylesheet */
+.appointment-widget {
+  margin-top: 3px;
+  margin-bottom: 1px;
+}
+
+.card {
+  background-color: #57be53; /* Blue background color */
+  color: #fff; /* White text color */
+  border-radius: 5px;
+  padding: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 10px;
+  margin-bottom: -5px;
+  display: inline-block; /* Set display to inline-block */
+  width: 250px;
+}
+
+.card-content {
+  text-align: center; /* Center align content */
+}
+
+.card-title {
+  font-size: 1rem;
+  margin-bottom: 6px; /* Adjust margin */
+  margin-top: 5px;
+}
+
+.card-text {
+  font-size: 3rem;
+  margin-top: 6px; /* Adjust margin */
+  margin-bottom: 3px;
+}
+.widgets-container {
+  display: flex;
+  justify-content: space-between; /* Evenly space widgets */
+  margin-top: 20px; /* Adjust as needed */
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 60px;
+}
+
+.chart-container{
+  margin-left: 30px;
+  margin-right: 60px;
+}
